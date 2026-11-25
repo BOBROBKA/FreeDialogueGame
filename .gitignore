@@ -67,6 +67,11 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# LLM
+*.gguf
+LLM/llama/*
+!LLM/llama/.gitkeep
+
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
